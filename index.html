@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Players</title>
+    <!-- favicon icon -->
+    <link rel="icon" href="players/favicon.png" type="image/x-icon" />
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-text">
+            <h1>Best Player in The world</h1>
+            <p>Who is the best football player in the world? The answer will never be agreed upon, it will never be
+                fully settled, it will never be definitively decided.</p>
+        </div>
+    </header>
+    <main>
+        <section class="main-blog container">
+            <div class="blogs">
+                <div class="blog blog-hov">
+                    <div class="thumbnail">
+                        <img src="players/player-1.png" alt="" />
+                    </div>
+                    <div class="text">
+                        <h4 id="neymar">Neymar</h4>
+                        <small>30 Goals & 120 Assist</small>
+                        <p>
+                            Neymar da Silva Santos Júnior (born 5 February 1992), known as Neymar, is a Brazilian
+                            professional
+                            footballer who plays as a forward.
+                        </p>
+                        <button id="btn1" class="btn">SELECT</button>
+                    </div>
+                </div>
+                <div class="blog blog-hov">
+                    <div class="thumbnail">
+                        <img src="players/player-2.png" alt="" />
+                    </div>
+                    <div class="text">
+                        <h4 id="messi">Lionel messi</h4>
+                        <small>40 Goals & 132 Assist</small>
+                        <p>
+                            Lionel Messi is the greatest thing we have in Argentina and we must take care of him." Mayor
+                            of Buenos
+                            Aires Horacio. He is best Player in the world.
+                        </p>
+                        <button id="btn2" class="btn">SELECT</button>
+                    </div>
+                </div>
+                <div class="blog blog-hov">
+                    <div class="thumbnail">
+                        <img src="players/player-3.png" alt="" />
+                    </div>
+                    <div class="text">
+                        <h4 id="cristiano">Cristiano Ronaldo</h4>
+                        <small>40 Goals & 121 Assist</small>
+                        <p>
+                            Cristiano Ronaldo dos Santos Aveiro was born in São Pedro, Funchal, on the Portuguese island
+                            of Madeira,
+                            and grew up in Santo António, Funchal.
+                        </p>
+                        <button id="btn3" class="btn">SELECT</button>
+                    </div>
+                </div>
+                <div id="player-selecting" class="blog calculate">
+                    <h2 id="selected-player">Selected - Player</h2>
+                    <ol id="order-list" class="orderElements">
+                    </ol>
+                </div>
+                <div class="blog blog-hov">
+                    <div class="thumbnail">
+                        <img src="players/player-5.png" alt="" />
+                    </div>
+                    <div class="text">
+                        <h4 id="ozil">Mesut Ozil</h4>
+                        <small>25 Goals & 86 Assist</small>
+                        <p>
+                            Mesut Özil - Official Website. Mesut Özil. OFFICIAL WEBSITE. "Why should I subdue the world,
+                            if I can
+                            enchant it." Social.
+                        </p>
+                        <button id="btn4" class="btn">SELECT</button>
+                    </div>
+                </div>
+                <div class="blog blog-hov">
+                    <div class="thumbnail">
+                        <img src="players/player-6.png" alt="" />
+                    </div>
+                    <div class="text">
+                        <h4 id="luiz">Jorge Luiz Frello</h4>
+                        <small>29 Goals & 109 Assist</small>
+                        <p>
+                            Jorge Luiz Frello Filho Cavaliere OMRI (born 20 December 1991), known as Jorginho, is a
+                            professional
+                            footballer who plays as a midfielder.
+                        </p>
+                        <button id="btn5" class="btn">SELECT</button>
+                    </div>
+                </div>
+                <div class="blog blog-hov">
+                    <div class="thumbnail">
+                        <img src="players/player-4.png" alt="" />
+                    </div>
+                    <div class="text">
+                        <h4 id="dybala">Paulo Dybala</h4>
+                        <small>34 Goals & 113 Assist</small>
+                        <p>
+                            Paulo Exequiel Dybala (born 15 November 1993) is an Argentine professional footballer who
+                            plays as a
+                            forward for Serie.
+                        </p>
+                        <button id="btn6" class="btn">SELECT</button>
+                    </div>
+                </div>
+                <div class="blog calculate">
+                    <h2>Budget</h2>
+                    <div class="per-player">
+                        <h4>Per Player :</h4>
+                        <input type="text" id="player-cost-field" placeholder="Player Cost">
+                    </div>
+                    <button id="player-calculate" class="btn btn-calculate">Calculate</button>
+                    <div class="player-expenses">
+                        <h4>Player Expenses :</h4>
+                        <h4>$ <span id="player-total-expense">000</span> </h4>
+                    </div>
+                    <div class="per-player">
+                        <h4>Manager :</h4>
+                        <input id="manager-cost" type="text" placeholder="Manager Cost">
+                    </div>
+                    <div class="per-player">
+                        <h4>Coach :</h4>
+                        <input id="coach-cost" type="text" placeholder="Coach Cost">
+                    </div>
+                    <button id="total-cost-calculate" class="btn btn-calculate">Calculate Total</button>
+                    <div class="player-expenses">
+                        <h4>Total :</h4>
+                        <h4>$ <span id="final-Total">000</span> </h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <small class="sm-fot">Copyright @ 2022 All Rights Reserved.</small>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
